@@ -1,0 +1,25 @@
+1.before understanding  the sql let  us understand  why we need sql what is the use of sql?
+we have databse where all kinds of data is stored.to retrive the data,to manipulate,to read the data we have database.
+there is DBMS(which is database managemnet sysytem )which act as a interface between user and the database
+database is of 2 types 1.RDBMS 2.NOSQL
+in RDBMS(realtional databse manegment system )data is stored in row and column, the language is used is SQL
+in NOSQL which deals with large amount of data can be store data in diffrent format ex like 1.key-value pair,2.column based,3.graphbased here different language is used
+______________________________________________________________________________________________________________________________________________________________
+now let us understand sql (structured query language) which as an  instructions given to the database
+there are some caluses is used in sql 
+let us see one by one
+before that there are 3 types of SQL commands
+1.data defination language(create ,drop,alter)
+2.data manipulation language(insert,delete,update,select)
+3.data control language(revoke)
+_______________________________________________________________________________________________________________________________________________
+clauses in sql (SELECT)
+1. SELECT-> select* from (table name) where (condition) ODER BY ASE/DESE
+1.a if u want select few columns name then,
+    select (column1,column2,column3) from tabel name 
+1.b if u want to change a column name in diffirent name  then 
+    select column1 as "col1" from tablename
+1.c performing arthimatic operations
+    select (col1 *0.90) as "disscount_price"
+_________________________________________________________________________________________________________________________________________________
+
