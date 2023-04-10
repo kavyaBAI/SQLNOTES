@@ -22,4 +22,21 @@ clauses in sql (SELECT)
 1.c performing arthimatic operations
     select (col1 *0.90) as "disscount_price"
 _________________________________________________________________________________________________________________________________________________
-
+2 WHERE
+where is a condition in which u apply the condition.
+in which colun name followed by logical operator and the value 
+example=where column1 = 'value'
+in the condition we can aplly logical opeartor
+>,<=>,>=,(!=<>) not equal 
+and we also have  AND,OR,NOT operator to make the condition more powerful
+_______________________________________________________________________________________________________________
+logical operator
+AND,OR, NOT 
+AND has highr priority then then the or 
+EX-(cond1 or cond2) and cond3
+cond1 or cond2 and cond3 first cond3 and cond 2 will be excuted as and  has higher priority 
+_________________________________________________________________________________________________________________
+IN operator
+insted of using multiple or condition we can use in operator
+ex-select * from employee where empid IN (1,2,3)
+ODER BY EMPID
