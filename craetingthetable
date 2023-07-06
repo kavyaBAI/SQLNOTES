@@ -1,0 +1,8 @@
+REATE TABLE `subscription_table` (
+  `cust_id` int NOT NULL,
+  `sub_id` int DEFAULT NULL,
+  `tenant_id` varchar(250) DEFAULT NULL,
+  `app_id` varchar(255) DEFAULT NULL,
+  `secret_key` varchar(255) DEFAULT NULL,
+  foreign key (`cust_id`) references cust_info (`cust_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
